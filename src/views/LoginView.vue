@@ -121,7 +121,7 @@ export default {
 
 .background-login
 {
-  background-image: url('/img/L-1.svg');
+  background-image: url('/src/assets/L-1.svg');
   background-position: center;
   background-size: cover;
 }
