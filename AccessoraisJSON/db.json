@@ -1,0 +1,98 @@
+{
+  "artBoards": [
+    {
+      "id": "1",
+      "title": "3D carved from pine wood",
+      "thumbnail": "bw-1",
+      "images": [
+        "bw-2",
+        "bw-3",
+        "bw-4",
+        "bw-5"
+    ],
+    "measuring": {
+      "size1": "65 cm",
+      "size2": "75 cm",
+      "size3": "90 cm"
+      },
+      "description": "Lorem ipsum dolor sit amet Quisquam est voluptatibus Lorem ipsum dolor sit amet Quisquam est voluptatibus vero cumque facere quo totam."
+    },
+    {
+      "id": "2",
+      "title": "Yellow roses palette with Oil colors",
+      "thumbnail": "by-2",
+      "images": [
+        "by-1",
+        "by-2",
+        "by-3"
+      ],
+      "measuring": {
+        "size1": "4 * 7 cm"
+        },
+      "description": "Lorem ipsum dolor sit amet Quisquam est voluptatibus Lorem ipsum dolor sit amet Quisquam est voluptatibus vero cumque facere quo totam."
+    },
+    {
+      "id": "3",
+      "title": "Necklace in the name of (Zana)",
+      "thumbnail": "b-3",
+      "images": [
+        "b-3",
+        "b-3",
+        "b-3",
+        "b-3"
+      ],
+      "measuring": {
+        "size1": "50 * 70 cm"
+        },
+      "description": "((Zana)) This is one unique piece in the world made with love just for you , 925 sterling silver on American walnut wood."
+    },
+    {
+      "id": "4",
+      "title": "New neighborhood  palette with oil colors",
+      "thumbnail": "b-4",
+      "images": [
+          "b-4",
+          "b-4",
+          "b-4",
+          "b-4"
+      ],
+      "measuring": {
+        "size1": "50 * 70 cm"
+        },
+      "description": "This painting is inspired by the old neighborhoods of Aleppo ,From a neighborhood called the new neighborhood."
+    },
+    {
+      "id": "5",
+      "thumbnail": "bg-5",
+
+      "title": "Galaxy palette..",
+      "images": [
+        "bg-1",
+        "bg-2",
+        "bg-1",
+        "bg-2"
+      ],
+
+      "measuring": {
+        "size1": "50 * 40 cm"
+        },
+      "description": "Lorem ipsum dolor sit amet Quisquam est voluptatibus Lorem ipsum dolor sit amet Quisquam est voluptatibus vero cumque facere quo totam."
+    },
+    {
+      "id": "6",
+      "title": "A village painting in oil colors",
+      "thumbnail": "bv-1",
+      "images": [
+        "bv-1",
+        "bv-1",
+        "bv-1",
+        "bv-1"
+      ],
+      "measuring": {
+        "size1": "50 * 40 cm"
+        },
+      "description": "Lorem ipsum dolor sit amet Quisquam est voluptatibus Lorem ipsum dolor sit amet Quisquam est voluptatibus vero cumque facere quo totam."
+    }
+   
+  ]
+}

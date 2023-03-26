@@ -1,0 +1,40 @@
+{
+    "earrings": [
+        {
+          "id": "1e",
+          "src": "e-1",
+          "title": "sit amet consectetur adipisicing elit.",
+          "price": "900"
+        },
+        {
+          "id": "2e",
+          "src": "e-2",
+          "title": "Hello sit amet consectetur adipisicing elit.",
+          "price": "800"
+        },
+        {
+          "id": "3e",
+          "src": "e-3",
+          "title": "sit amet consectetur adipisicing elit.",
+          "price": "700"
+        },
+        {
+          "id": "4e",
+          "src": "e-4",
+          "title": "sit amet consectetur adipisicing elit.",
+          "price": "600"
+        },
+        {
+          "id": "5e",
+          "src": "e-5",
+          "title": "sit amet consectetur adipisicing elit.",
+          "price": "500"
+        },
+        {
+          "id": "6e",
+          "src": "e-6",
+          "title": "sit amet consectetur adipisicing elit.",
+          "price": "400"
+        }
+    ]    
+}
