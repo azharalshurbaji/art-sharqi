@@ -30,27 +30,28 @@
           class="mySwiper"
           >
           <swiper-slide>
+            <!-- :src="'/src/assets/art-board/'+ ArtBoardDetails.thumbnail + '.jpg'" -->
             <v-img
-            :src="'/src/assets/art-board/'+ ArtBoardDetails.thumbnail + '.jpg'"
-            :lazy-src="'/src/assets/art-board/'+ ArtBoardDetails.thumbnail + '.jpg'"
+            :src="ArtBoardDetails.thumbnail"
+            :lazy-src="ArtBoardDetails.thumbnail"
           />
           </swiper-slide>
           <swiper-slide>
             <v-img
-              :src="'/src/assets/art-board/'+ ArtBoardDetails.images[0] + '.jpg'"
-              :lazy-src="'/src/assets/art-board/'+ ArtBoardDetails.images[0] + '.jpg'"
+              :src="ArtBoardDetails.images[0]"
+              :lazy-src="ArtBoardDetails.images[0]"
             />
           </swiper-slide>
             <swiper-slide>
               <v-img
-                :src="'/src/assets/art-board/'+ ArtBoardDetails.images[1] + '.jpg'"
-                :lazy-src="'/src/assets/art-board/'+ ArtBoardDetails.images[1] + '.jpg'"
+                :src="ArtBoardDetails.images[1]"
+                :lazy-src="ArtBoardDetails.images[1]"
               />
             </swiper-slide>
           <swiper-slide>
             <v-img
-              :src="'/src/assets/art-board/'+ ArtBoardDetails.images[2] + '.jpg'"
-              :lazy-src="'/src/assets/art-board/'+ ArtBoardDetails.images[2] + '.jpg'"
+              :src="ArtBoardDetails.images[2]"
+              :lazy-src="ArtBoardDetails.images[2]"
             />
           </swiper-slide>
           
