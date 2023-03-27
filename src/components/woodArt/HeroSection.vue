@@ -50,11 +50,11 @@
       >
         <v-sheet border>
           <v-sheet class="pa-5" align="center" height="750">
+            <!-- :src="'/src/assets/art-board/'+ artBoard.thumbnail + '.jpg'" -->
             <v-img
               cover
-              :src="'/src/assets/art-board/'+ artBoard.thumbnail + '.jpg'"
+              :src="artBoard.thumbnail"
               width="400"
-              class=""
             />
 
           <v-sheet class="mt-1">
@@ -96,15 +96,15 @@ import { mapActions } from 'pinia';
 export default {
   data: () => ({
     artBoards: [
-      {
+    {
       id: "1",
       title: "3D carved from pine wood",
-      thumbnail: "bw-1",
+      thumbnail: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bw-1.jpg",
       images: [
-        "bw-2",
-        "bw-3",
-        "bw-4",
-        "bw-5"
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bw-2.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bw-3.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bw-4.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bw-5.jpg"
     ],
     measuring: {
       size1: "65 cm",
@@ -116,11 +116,11 @@ export default {
     {
       id: "2",
       title: "Yellow roses palette with Oil colors",
-      thumbnail: "by-2",
+      thumbnail: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/by-2.jpg",
       images: [
-        "by-1",
-        "by-2",
-        "by-3"
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/by-1.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/by-2.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/by-3.jpg"
       ],
       measuring: {
         size1: "4 * 7 cm"
@@ -130,12 +130,12 @@ export default {
     {
       id: "3",
       title: "Necklace in the name of (Zana)",
-      thumbnail: "b-3.",
+      thumbnail: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/b-3.jpg",
       images: [
-        "b-3",
-        "b-3",
-        "b-3",
-        "b-3"
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/b-3.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/b-3.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/b-3.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/b-3.jpg"
       ],
       measuring: {
         size1: "50 * 70 cm"
@@ -145,12 +145,12 @@ export default {
     {
       id: "4",
       title: "New neighborhood  palette with oil colors",
-      thumbnail: "b-4.",
+      thumbnail: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/b-4.jpg",
       images: [
-          "b-4",
-          "b-4",
-          "b-4",
-          "b-4"
+          "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/b-4.jpg",
+          "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/b-4.jpg",
+          "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/b-4.jpg",
+          "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/b-4.jpg"
       ],
       measuring: {
         size1: "50 * 70 cm"
@@ -159,14 +159,13 @@ export default {
     },
     {
       id: "5",
-      thumbnail: "bg-5",
-
       title: "Galaxy palette..",
+      thumbnail: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bg-5.jpg",
       images: [
-        "bg-1",
-        "bg-2",
-        "bg-1",
-        "bg-2"
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bg-1.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bg-2.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bg-1.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bg-2.jpg"
       ],
 
       measuring: {
@@ -177,12 +176,12 @@ export default {
     {
       id: "6",
       title: "A village painting in oil colors",
-      thumbnail: "bv-1",
+      thumbnail: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bv-1.jpg",
       images: [
-        "bv-1",
-        "bv-1",
-        "bv-1",
-        "bv-1"
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bv-1.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bv-1.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bv-1.jpg",
+        "https://azharalshurbaji.github.io/diamond-image/art-sharqi/art-board/bv-1.jpg"
       ],
       measuring: {
         size1: "50 * 40 cm"

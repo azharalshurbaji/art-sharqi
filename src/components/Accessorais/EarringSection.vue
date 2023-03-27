@@ -30,9 +30,10 @@
             height="auto"
             >
               <v-sheet class="mx-auto" align="center" border>
+                <!-- '/src/assets/earring/'+ earring.src + '.png' -->
                 <v-img 
-                  :src="'/src/assets/earring/'+ earring.src + '.png'"
-                  :lazy-src="'/src/assets/earring/'+ earring.src + '.png'"
+                  :src="earring.src"
+                  :lazy-src="earring.src"
                   width="300"
                 />
                 <!-- {{getPic(index)}} </v-img> -->
@@ -90,42 +91,60 @@ import user from '@/store/user';
 
 export default {
 
+   setup() {
+  //   import e1 from '@/asstes/e1.png'
+  //   import e2 from '@/asstes/e2.png'
+  //   import e3 from '@/asstes/e3.png'
+  //   import e4 from '@/asstes/e4.png'
+  //   import e5 from '@/asstes/e5.png'
+  //   import e6 from '@/asstes/e6.png'
+
+  //   const earrings = [
+  //     new URL("@/asstes/e1.png", import.meta.url).href,
+  //   ];
+
+  // const getImageUrl = earring => {
+  //   return new URL(`/src/assets/${earring}.png` ,import.meta.url).href;
+  // };
+
+  },
+  // e1 ,e2 ,e3 ,e4 ,e5 ,e6
     data:() => ({
       //^ /assets/earring/e-1.png
         earrings: [
         {
           id: "1e",
-          src: "e-1",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/earring/e-1.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "900"
         },
         {
           id: "2e",
-          src: "e-2",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/earring/e-2.png",
           title: "Hello sit amet consectetur adipisicing elit.",
           price: "800"
         },
         {
           id: "3e",
-          src: "e-3",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/earring/e-3.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "700"
         },
         {
           id: "4e",
-          src: "e-4",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/earring/e-4.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "600"
         },
         {
           id: "5e",
-          src: "e-5",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/earring/e-5.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "500"
         },
         {
           id: "6e",
-          src: "e-6",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/earring/e-6.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "400"
         }
@@ -162,8 +181,6 @@ export default {
           }
         });
     },
-
-    
 
     ...mapActions(Accessorais , ["accessoriesDetailsEarring"]),
     ...mapActions(useCartStore, ["addToCartEarring"]),

@@ -8,7 +8,8 @@
         <v-col
           cols="12"
           lg="2"
-          xs="3"
+          sm="auto"
+          align="center"
         >
           <v-img
             width="200"

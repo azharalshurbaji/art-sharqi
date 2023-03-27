@@ -30,10 +30,11 @@
             height="auto"
             >
                 <v-sheet class="mx-auto" align="center" border>
+                <!-- '/src/assets/ring/'+ ring.src + '.png' -->
                 <v-img 
-                    :src="'/src/assets/ring/'+ ring.src + '.png'"
-                    :lazy-src="'/src/assets/ring/'+ ring.src + '.png'"
-                    width="300"
+                  :src="ring.src"
+                  :lazy-src="ring.src"
+                  width="300"
                 />
               <div
                   class="my-3 text-center"
@@ -92,37 +93,37 @@ export default {
         rings: [
           {
             id: "1r",
-            src: "r-1",
+            src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/ring/r-1.png",
             title: "sit amet consectetur adipisicing elit.",
             price: "900"
           },
           {
             id: "2r",
-            src: "r-2",
+            src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/ring/r-2.png",
             title: "sit amet consectetur adipisicing elit.",
             price: "800"
           },
           {
             id: "3r",
-            src: "r-3",
+            src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/ring/r-3.png",
             title: "sit amet consectetur adipisicing elit.",
             price: "700"
           },
           {
             id: "4r",
-            src: "r-4",
+            src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/ring/r-4.png",
             title: "sit amet consectetur adipisicing elit.",
             price: "600"
           },
           {
             id: "5r",
-            src: "r-5",
+            src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/ring/r-5.png",
             title: "sit amet consectetur adipisicing elit.",
             price: "500"
           },
           {
             id: "6r",
-            src: "r-6",
+            src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/ring/r-6.png",
             title: "sit amet consectetur adipisicing elit.",
             price: "500"
           }

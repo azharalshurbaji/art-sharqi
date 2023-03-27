@@ -36,22 +36,10 @@
               </span>
             </v-sheet> -->
 
-            <!-- :lazy-src="'/src/assets/' + item.src + '.png'"  -->
+            <!-- :src="'/src/assets/ring/' + item.src + '.png'"  -->
             <v-img 
-              :src="'/src/assets/earring/' + item.src + '.png'" 
-              :lazy-src="'/src/assets/' + item.src + '.png'"
-              width="300" 
-              class="border" 
-            />
-            <v-img 
-              :src="'/src/assets/necklace/' + item.src + '.png'" 
-              :lazy-src="'/src/assets/necklace/' + item.src + '.png'"
-              width="300" 
-              class="border" 
-            />
-            <v-img 
-              :src="'/src/assets/ring/' + item.src + '.png'" 
-              :lazy-src="'/src/assets/ring/' + item.src + '.png'"
+              :src="item.src" 
+              :lazy-src="item.src"
               width="300" 
               class="border" 
             />

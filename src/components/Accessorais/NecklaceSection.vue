@@ -31,16 +31,16 @@
             >
                 <v-sheet class="mx-auto" align="center" border>
                 <v-img 
-                    :src="'/src/assets/necklace/'+ necklace.src + '.png'"
-                    :lazy-src="'/src/assets/necklace/'+ necklace.src + '.png'"
-                    width="300"
+                  :src="necklace.src"
+                  :lazy-src="necklace.src"
+                  width="300"
                 />
                 <div
-                    class="my-3 text-center"
-                    cols="12"
-                    lg="4"
-                    xs="5"
-                    sm="5"
+                  class="my-3 text-center"
+                  cols="12"
+                  lg="4"
+                  xs="5"
+                  sm="5"
                 >
                     <v-sheet class="text-red-darken-1 text-h6">
                       <span class="mr-2 text-h6 text-grey-darken-1">Price:</span>
@@ -98,37 +98,37 @@ export default {
         necklaces: [
         {
           id: "1n",
-          src: "n-4",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/necklace/n-3.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "900"
         },
         {
           id: "2n",
-          src: "n-2",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/necklace/n-2.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "800"
         },
         {
           id: "3n",
-          src: "n-3",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/necklace/n-4.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "700"
         },
         {
           id: "4n",
-          src: "n-4",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/necklace/n-4.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "600"
         },
         {
           id: "5n",
-          src: "n-5",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/necklace/n-5.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "500"
         },
         {
           id: "6n",
-          src: "n-6",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/necklace/n-6.png",
           title: "sit amet consectetur adipisicing elit.",
           price: "400"
         }

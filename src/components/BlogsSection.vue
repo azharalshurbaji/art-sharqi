@@ -22,15 +22,18 @@
           :to="{ name: 'blogs-details' , params: { id: blog.id } }"
           @click="ShowBlogDetails(blog)"
         >
-            <v-img
-            class="align-end text-white"
-            height="200"
-            :src="'/src/assets/blog-img/'+ blog.src + '.jpg'"
-            cover
-            gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-            >
-                <v-card-title class="text-white"> {{ blog.mainTitle }} </v-card-title>
-            </v-img>
+        <!-- :src="'/src/assets/blog-img/'+ blog.src + '.jpg'" -->
+        <v-img
+          class="align-end text-white"
+          height="200"
+          :src="blog.src"
+          cover
+          gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+        >
+          <v-card-title class="text-white"> 
+            {{ blog.mainTitle }} 
+          </v-card-title>
+      </v-img>
 
             <v-card-subtitle class="pt-4"> Article {{ blog.id }} </v-card-subtitle>
             
@@ -72,7 +75,7 @@ export default {
         blogs: [
         {
           id: "1b",
-          src: "ba-1",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/blog-img/ba-1.jpg",
           mainTitle: "How to learn to draw ?",
           articleTitle: "There are many ways in which drawing can be learned, namely:",
           "listItem": 
@@ -86,7 +89,7 @@ export default {
         },
         {
           id: "2b",
-          src: "ba-2",
+          src: "https://azharalshurbaji.github.io/diamond-image/art-sharqi/blog-img/ba-2.jpg",
           mainTitle: "Tips for beginners in fine art:",
           articleTitle: "Abdul-Azim Al-Damen's painting...",
           "articleBody": "Arming yourself with artistic knowledge and culture to enter the world of fine art is one of the advices given by the Head of the Fine Arts Department in Dammam Arts, Abdul-Azim Al-Damen, while Etidal stressed the importance of learning about the different experiences in this art. Here are some tips for beginners in fine art.",
