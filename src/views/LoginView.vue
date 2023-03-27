@@ -49,6 +49,18 @@
                   placeholder="Your Name"
                 >
                   <v-icon
+                    icon="mdi-account"
+                    variant="text"
+                    type="submit"
+                    class="py-3 ma-2"
+                  />
+                </v-text-field>
+                <v-text-field
+                  v-model="email"
+                  icon="mdi-email"
+                  placeholder="Your Email"
+                >
+                  <v-icon
                     icon="mdi-email"
                     variant="text"
                     type="submit"
@@ -70,10 +82,11 @@
                 </v-text-field>
                 
                 <v-btn 
-                    
-                    block
-                    type="submit"
-                    class="py-3 bg-white submit_btn"
+                  to="/"
+                  block
+                  type="submit"
+                  class="py-3 bg-white submit_btn"
+                  @click.prevent="submit"
                 >
                     Login
                 </v-btn>
@@ -102,11 +115,12 @@ export default {
             // kminchelle
         password: '0lelplR',
             // 0lelplR
+        email: 'kminchelle@qq.com',
     }),
     methods: {
       ...mapActions(user , ['login']),
       submit() {
-          this.login(this.username , this.password)
+          this.login(this.username , this.password ,this.email)
         },
         switchField() {
           this.fieldType = this.fieldType === 'password' ? 'text' : 'password' ;

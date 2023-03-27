@@ -16,10 +16,11 @@ export default defineStore('user', {
     }
   },
   actions: {
-     login(username , password) {
+     login(username , password ,email) {
         axios.post('https://dummyjson.com/auth/login', {
           username: username,
           password: password,
+          email: email,
             // expiresInMins: 60, // optional
         })
           .then(res => {
